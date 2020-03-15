@@ -12,10 +12,6 @@ class Timer
 		mins = @seconds / 60
 		hours = mins / 60
 		mins = (@seconds / 60) % 60
-		
-		# if mins >= 60
-		# 	mins -= 60
-		# end
 
 		if secs < 10
 			secs = '0' + secs.to_s
